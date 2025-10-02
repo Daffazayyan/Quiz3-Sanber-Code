@@ -91,7 +91,7 @@ describe('Reqres API Automation', () => {
   });
 
   it('8. POST - Register Successful', () => {
-    const userCredentials = { email: 'eve.holt@reqres.in', password: 'pistol' };
+    const userCredentials = { email: 'nopal.zyn@reqres.in', password: 'pistol' };
     cy.request({
       method: 'POST',
       url: 'https://reqres.in/api/register',
@@ -106,7 +106,7 @@ describe('Reqres API Automation', () => {
   });
 
   it('9. POST - Login Unsuccessful', () => {
-    const userCredentials = { email: 'peter@klaven' };
+    const userCredentials = { email: 'dapa@zyn' };
     cy.request({
       method: 'POST',
       url: 'https://reqres.in/api/login',
